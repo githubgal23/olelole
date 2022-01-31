@@ -141,7 +141,7 @@ def test():
     """Test utility functions for errors."""
     print('\nREADWORDS')
     print('---------')
-    words = readwords('secretwords5.txt')
+    words = readwords('secretwords5_old.txt')
     print(*words, sep=' ')
     print(f'Number of words: {len(words)}')
 

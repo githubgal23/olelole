@@ -39,5 +39,5 @@ def makeguess(wordlist, guesses=[], feedback=[]):
 
 
 if __name__ == "__main__":
-    wordlist = utils.readwords("allwords5.txt")
+    wordlist = utils.readwords("allwords5_old.txt")
     print(f"AI: 'My next choice would be {makeguess(wordlist)}'")
